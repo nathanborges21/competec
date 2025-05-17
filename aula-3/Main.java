@@ -1,10 +1,3 @@
-/******************************************************************************
-
-                            Online Java Compiler.
-                Code, Compile, Run and Debug java program online.
-Write your code in this editor and press "Run" button to execute it.
-
-*******************************************************************************/
 import java.util.Scanner;
 
 public class Main
@@ -58,11 +51,11 @@ public class Main
 		}
 
 
-		if (item < dinheiro_cliente){
+		if (carrinho_cliente < dinheiro_cliente){
 
 		System.out.println("voce pode pagar por isso");
 		
-	  } else if (item == dinheiro_cliente){
+	  } else if (carrinho_cliente == dinheiro_cliente){
 		
 		System.out.println("voce pode pagar po isso");
 		System.out.println("voce nao tem mais dinheiro");
