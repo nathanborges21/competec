@@ -8,12 +8,12 @@ public class Main
 		
 	  
 	   
-	   int pedro = 1;
+	   int pedro = 2;
+	   
+	   String bungas = sc.nextLine();
 		
 		while (pedro <= 5){
 		    
-	    String bungas = sc.nextLine();
-	    
 	    System.out.println(bungas);
 	    
 	    pedro ++;
@@ -21,3 +21,4 @@ public class Main
 		}
 	}
 }
+	
