@@ -34,20 +34,17 @@ public class Main
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner (System.in);
-		
-	  
 	   
-	   int pedro = 2;
+	   System.out.println("digite um número");
 	   
-	   String bungas = sc.nextLine();
-		
-		while (pedro <= 5){
-		    
-	    System.out.println(bungas);
+	    int tabuada = sc.nextInt();
 	    
-	    pedro ++;
-	   
-		}
+	   System.out.println("esta é a tábuada do seu número");
+	    
+	for (int n = 0; n <= 10; n++){
+	    
+	        System.out.println (n * tabuada);
+	}
 	}
 }
 	
