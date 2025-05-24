@@ -1,7 +1,23 @@
+import java.util.Scanner;
+
 public class Main
 {
 	public static void main(String[] args) {
-        // Escreva seu código aqui ⬇️
-		System.out.println("Hello World");
+
+		Scanner sc = new Scanner (System.in);
+		
+	  
+	   
+	   int pedro = 1;
+		
+		while (pedro <= 5){
+		    
+	    String bungas = sc.nextLine();
+	    
+	    System.out.println(bungas);
+	    
+	    pedro ++;
+	   
+		}
 	}
 }
