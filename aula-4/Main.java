@@ -48,3 +48,24 @@ public class Main
 	}
 }
 	
+
+
+
+
+
+
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	int douglas = 1;
+	
+	while (douglas*10 <=1001 ){
+	System.out.println(douglas*10);
+	douglas ++;
+	    
+	}
+	}
+	}
